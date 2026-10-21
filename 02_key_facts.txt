@@ -1,0 +1,67 @@
+====================================================================
+KEY FACTS — Bangladesh Restaurant Dataset (deduplicated: 10,755 places)
+====================================================================
+All percentages are of the 10,755 unique places unless marked
+"of rated places" (8,226 places).
+
+THE HEADLINE NUMBERS
+--------------------
+1.  12,703 rows in the raw file = 10,755 unique Google Maps food
+    places (1,948 duplicate rows were removed).
+2.  919,308 real customer reviews sit on these places. The raw file
+    claims 2.07M because duplicates double-count heavy hitters.
+3.  Average rating of a rated place: 4.08 (median 4.1).
+4.  65.5% of rated places score 4.0 or higher; 21.6% score a
+    perfect 5.0 — the single most common score in the dataset.
+5.  Only 3.8% of places score below 3.0. Bad restaurants are rare
+    on Google Maps Bangladesh — or they have already closed.
+
+RATINGS & REVIEWS
+-----------------
+6.  2,529 places (23.5%) have never been rated at all.
+7.  The most common rating bucket is 4.0-4.4 (2,797 places, 26%).
+8.  Popularity does NOT buy quality: the busiest venues average
+    3.4-4.4 stars, and the rating-vs-reviews correlation is mildly
+    NEGATIVE (Spearman rho = -0.25). High-traffic places get
+    graded harder.
+9.  Attention is extremely concentrated: the top 1% of places
+    (about 108 venues) hold 40.4% of ALL reviews; the top 10% hold
+    87.7%.
+10. 5,138 places (47.8%) have 2 reviews or fewer — half the market
+    is essentially invisible online.
+11. The most-reviewed place in the country: Hotel Noorjahan,
+    Cumilla — 17,655 reviews at 3.5 stars. In Dhaka: Star Kebab &
+    Restaurant (16,992) and Sultan's Dine Dhanmondi (15,622).
+
+GEOGRAPHY
+---------
+12. 62 of 64 districts appear in the data; footprint spans
+    20.86-26.49 N and 88.13-92.44 E — the whole country.
+13. Dhaka district alone holds 2,413 listings (22.4%) — more than
+    the next two districts (Chattogram 946, Khulna 860) combined.
+14. Dhaka division captures 57.8% of all reviews (531K) while
+    holding 27.5% of listings. Chattogram is a distant #2 at 151K.
+15. Three dense clusters: Greater Dhaka, the Chattogram coast, and
+    the Sylhet corridor (tea-country tourism).
+16. Sylhet is the strongest review market outside the big two:
+    69K reviews from only 703 listings — tourist traffic works.
+
+PLACE TYPES
+-----------
+17. Traditional "Hotel / restaurant" listings dominate: 4,763
+    places (44.3% of all, 62% of classifiable ones).
+18. The strongest named specialty is biryani: 309 dedicated biryani
+    houses, ahead of Chinese (297) and kebab & grill (131).
+19. Cafes & canteens (680) and fast food & snacks (547) form the
+    modern layer; sweets & bakeries add 476.
+20. 32.4% of businesses use Bangla script in their names — local
+    language presence is a real SEO/reach factor.
+
+DATA CAVEATS (one-liners)
+-------------------------
+21. 1,948 duplicate rows inflate raw review totals by ~1.15M.
+22. Rating 0 = "not yet rated" (2,529 places), not a zero score.
+23. 90.5% of the affluence column is empty — unusable.
+24. 110 rows are not restaurants at all (mosques, madrasas,
+    furniture stores); 63 rows are addresses inside India.
+25. 722 places (6.7%) have no mappable address (plus-code only).

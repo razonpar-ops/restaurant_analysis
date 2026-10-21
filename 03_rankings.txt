@@ -1,0 +1,81 @@
+====================================================================
+RANKINGS & TABLES — Bangladesh Restaurant Dataset (10,755 places)
+====================================================================
+
+TOP 12 DISTRICTS BY NUMBER OF FOOD-PLACE LISTINGS
+-------------------------------------------------
+ 1. Dhaka ............. 2,413   (22.4% of the country)
+ 2. Chattogram ........   946
+ 3. Khulna ............   860
+ 4. Rajshahi ..........   717
+ 5. Mymensingh ........   527
+ 6. Rangpur ...........   526
+ 7. Sylhet ............   474
+ 8. Barishal ..........   465
+ 9. Cumilla ...........   291
+10. Cox's Bazar .......   137
+11. Kishoreganj .......   116
+12. Brahmanbaria ......   112
+
+(722 places could not be mapped to a district — plus-code-only
+addresses; 63 listings are inside India.)
+
+REVIEWS BY DIVISION
+------------------------------------------------------------
+Dhaka        531K reviews  (57.8% of national total)
+Chattogram   151K  (16.4%)
+Sylhet        69K  ( 7.5%)
+Rajshahi      49K  ( 5.3%)
+Khulna        37K  ( 4.0%)
+Rangpur       27K  ( 2.9%)
+Barishal      16K  ( 1.7%)
+Mymensingh    14K  ( 1.5%)
+
+TOP 10 MOST-REVIEWED PLACES
+------------------------------------------------------------
+Place                          Rating   Reviews   District
+Hotel Noorjahan                  3.5    17,655    Cumilla
+Star Kebab & Restaurant          4.2    16,992    Dhaka
+Sultan's Dine Dhanmondi          4.3    15,622    Dhaka
+Panshi Restaurant                4.2    13,616    Sylhet
+Pach Vai Restaurant              4.4    11,459    Sylhet
+Hotel Ujanvati & Resort          3.4     9,505    (unmapped)
+Domino's Pizza - Dhanmondi       4.3     8,276    Dhaka
+Hotel Al Razzak Restaurant       3.9     7,513    Dhaka
+Chillox Dhanmondi                4.3     7,262    Dhaka
+Abul Hotel                       4.0     7,121    Dhaka
+
+PLACE-TYPE MIX (from name keywords, EN + Bangla)
+------------------------------------------------------------
+Hotel / restaurant ....... 4,763   (44.3%)
+Cafe & canteen ...........   680
+Fast food & snacks .......   547
+Sweets & bakery ..........   476
+Store / general ..........   317
+Biryani house ............   309
+Chinese ..................   297
+Tea stall / tea shop .....   182
+Kebab & grill ............   131
+Non-restaurant entry .....   110   (mosques, madrasas, parks...)
+(2,943 places have generic names like "Razzak Store" or a person's
+name and cannot be classified.)
+
+AVERAGE RATING BY TYPE (rated places only)
+------------------------------------------------------------
+Sweets & bakery .......... 4.23   (highest of the big categories)
+Fast food & snacks ....... 4.19
+Cafe & canteen ........... 4.16
+Biryani house ............ 4.05
+Hotel / restaurant ....... 4.03
+Chinese .................. 3.99
+Store / general .......... 3.89   (lowest)
+
+RATING DISTRIBUTION
+------------------------------------------------------------
+Unrated .... 2,529  (23.5%)
+1.0-1.9 .....  188  ( 1.7%)
+2.0-2.9 .....  226  ( 2.1%)
+3.0-3.9 ..... 2,428  (22.6%)
+4.0-4.4 ..... 2,797  (26.0%)
+4.5-4.9 .....   809  ( 7.5%)
+5.0 ......... 1,778  (16.5%)
