@@ -1,0 +1,20 @@
+======================================================================
+GEOGRAPHY FACTS
+======================================================================
+10,692 places in Bangladesh; 63 just across the border in India.
+Greater Dhaka (within 20 km of centre): 1,237 places = 11.5% of the dataset
+  avg rating 4.04 vs 4.09 elsewhere;  unrated: 11% vs 25% elsewhere
+  median reviews 55 vs 5;  has affluence value: 27% vs 7%
+
+BY DIVISION (derived from coordinates; Dhaka includes Mymensingh)
+  division      places   share   unrated   avg rating   median reviews
+  Dhaka         3,722    35%     20%      4.09        10
+  Chattogram    2,107    20%     26%      4.04        5
+  Rajshahi      1,445    14%     22%      4.09        5
+  Khulna        1,170    11%     28%      4.12        4
+  Rangpur         872     8%     24%      4.13        5
+  Sylhet          722     7%     25%      4.01        8
+  Barishal        654     6%     27%      4.16        3
+
+Reading: the unrated share is much higher outside the big cities - rural listings exist on the map but
+few people have reviewed them. Ratings outside Dhaka are therefore based on thinner evidence.

@@ -1,0 +1,34 @@
+======================================================================
+DATA QUALITY ISSUES FOUND (and what we did)
+======================================================================
+1. DUPLICATES: 1,945 rows (15.3%) were exact copies of another row.
+   914 places appear more than once; one place appears 13 times.
+   FIX: removed exact duplicates -> 10,758 rows.
+   3 place_ids still had 2 rows with slightly different review counts (scrape timing).
+   FIX: kept the row with the larger review count -> 10,755 unique places.
+
+2. RATING = 0 MEANS 'NO RATING': 2,528 places (23.5%) have rating 0.
+   All of them have no review count: True. A real 0-star rating does not exist on this scale.
+   FIX: treated 0 as missing for all rating statistics (including it would drag the mean down to 3.12 instead of 4.08).
+   5 places have a rating but no review count (left in, excluded from review-based stats).
+
+3. REVIEW COUNT BLANK: 2,534 places (23.6%) - same group as the unrated places.
+
+4. AFFLUENCE MOSTLY MISSING: only 1,026 places (9.5%) have a value.
+   The smallest review count among places that have affluence is 4; none are unrated. It is NOT missing at random:
+   it only appears for places with enough reviews. Averages by affluence describe popular places only.
+
+5. NOT EVERYTHING IS A RESTAURANT: ~312 places (2.9%) have names that look like stores, telecom shops,
+   schools, farms, etc. (conservative keyword check - true number is likely higher, since personal names and
+   unusual names can't be detected). 47 places have names of 3 characters or fewer (e.g. 'Gg', 'bk', 'no').
+   FIX: flagged in data/restaurants_clean.csv (column likely_non_restaurant), not deleted.
+
+6. OUTSIDE BANGLADESH: 63 places have Indian addresses (Tripura, West Bengal, Assam border towns).
+   FIX: flagged (column country) and excluded from division-level geographic analysis.
+
+7. MIXED LANGUAGES: 3,480 names (32.4%) are in Bengali script. The same business can appear under
+   different spellings (Bismillah / Bishmillah / বিসমিল্লাহ), so name matching needs both scripts.
+
+8. ADDRESSES ARE MESSY: 3,372 (31.4%) are just Plus Codes; 236 say 'Unnamed Road'.
+   There is no clean city/district column - division was derived from coordinates (offline reverse geocoder).
+   Mymensingh division is merged into Dhaka in that geodata (it uses the older 7-division map).

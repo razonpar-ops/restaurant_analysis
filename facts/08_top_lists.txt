@@ -1,0 +1,49 @@
+======================================================================
+TOP LISTS
+======================================================================
+
+TOP 15 MOST-REVIEWED PLACES
+  Hotel Noorjahan                               3.5*   17,655 reviews  aff 2  Chattogram
+  Star Kebab & Restaurant                       4.2*   16,992 reviews  aff 2  Dhaka
+  Sultan's Dine Dhanmondi                       4.3*   15,622 reviews  aff 2  Dhaka
+  Panshi Restaurant                             4.2*   13,616 reviews  aff 1  Sylhet
+  Pach Vai Restaurant                           4.4*   11,459 reviews  aff 1  Sylhet
+  Hotel Ujanvati & Resort                       3.4*    9,505 reviews  aff -  Dhaka
+  Domino's Pizza - Dhanmondi                    4.3*    8,276 reviews  aff 2  Dhaka
+  Hotel Al Razzak Restaurant                    3.9*    7,513 reviews  aff 2  Dhaka
+  Chillox Dhanmondi                             4.3*    7,262 reviews  aff 2  Dhaka
+  Abul Hotel                                    4.0*    7,121 reviews  aff -  Dhaka
+  Rabbani Hotel                                 4.1*    6,204 reviews  aff 2  Dhaka
+  Hirajheel Hotel                               4.1*    5,626 reviews  aff 2  Dhaka
+  Takeout Banani                                4.4*    5,433 reviews  aff 2  Dhaka
+  Chillox Banani                                4.4*    5,103 reviews  aff 2  Dhaka
+  Jannat Restaurant and Resort                  3.7*    5,074 reviews  aff 2  Dhaka
+
+TOP 15 BY ADJUSTED RATING (100+ reviews only; adjusted for review count)
+  রসুইঘর রেষ্টুরেন্ট এন্ড পার্টি সেন্টার        4.7*      818 reviews  aff 2  Chattogram  adj 4.68
+  Elements Restaurant, InterContinental Dhaka   4.6*      462 reviews  aff -  Dhaka  adj 4.57
+  GOVINDA'S SWEETS & RESTAURANT                 4.6*      146 reviews  aff -  Dhaka  adj 4.52
+  Mizan's Kabab & Food                          4.6*      113 reviews  aff -  Rajshahi  adj 4.51
+  Captain Food                                  4.6*      109 reviews  aff -  Chattogram  adj 4.50
+  Yum Cha District                              4.5*    2,814 reviews  aff 2  Dhaka  adj 4.50
+  Yum Cha District                              4.5*    2,277 reviews  aff 3  Dhaka  adj 4.50
+  Izumi Japanese Kitchen                        4.5*    1,425 reviews  aff 4  Dhaka  adj 4.49
+  Izakaya                                       4.5*    1,116 reviews  aff 3  Dhaka  adj 4.49
+  Seasonal Tastes                               4.5*      294 reviews  aff 4  Dhaka  adj 4.47
+  Rainy Roof Restaurant & Café                  4.5*      185 reviews  aff -  Dhaka  adj 4.45
+  hoichoi cafe                                  4.5*      154 reviews  aff 1  Dhaka  adj 4.44
+  Spice village                                 4.5*      115 reviews  aff 1  Sylhet  adj 4.43
+  Pach Vai Restaurant                           4.4*   11,459 reviews  aff 1  Sylhet  adj 4.40
+  Takeout Banani                                4.4*    5,433 reviews  aff 2  Dhaka  adj 4.40
+
+BOTTOM 10 BY ADJUSTED RATING (100+ reviews)
+  Time cafe Restaurant                          3.1*      631 reviews  aff 2  Chattogram  adj 3.14
+  Hotel Rajmoni Exclusive                       3.2*    4,373 reviews  aff 2  Dhaka  adj 3.21
+  Hotel Ujanvati & Resort                       3.4*    9,505 reviews  aff -  Dhaka  adj 3.40
+  Hirajil Hotel & Restaurant                    3.3*      155 reviews  aff 2  Dhaka  adj 3.41
+  Jobbar Hotel And Restaurant                   3.4*    1,457 reviews  aff 2  Rajshahi  adj 3.41
+  Corner Cafe                                   3.3*      132 reviews  aff -  Outside Bangladesh  adj 3.42
+  Time Park Convension Center                   3.4*      480 reviews  aff 2  Chattogram  adj 3.43
+  Monolova Kabab and Restaurant                 3.4*      381 reviews  aff 2  Dhaka  adj 3.44
+  Soudia Hotel and Restaurant                   3.4*      354 reviews  aff 1  Dhaka  adj 3.45
+  New Morning-Sun Highway Restaurant            3.4*      185 reviews  aff 2  Dhaka  adj 3.48

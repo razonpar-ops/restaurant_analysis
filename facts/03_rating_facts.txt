@@ -1,0 +1,28 @@
+======================================================================
+RATING FACTS
+======================================================================
+Rated places: 8,226  (mean 4.08, median 4.1, mode 5.0)
+Places rated 4.0 or higher: 5,384 (65.5% of rated)
+Places rated below 3.0: 414 (5.0%)
+Perfect 5.0: 1,778 (21.6% of rated) - the single most common rating, ahead of 4.0 (1,149 places)
+   Of the perfect-5.0 places that have a review count: 78% have only 1-2 reviews (median 1).
+   No perfect-5.0 place has more than 20 reviews. Among 1,277 places with 100+ reviews, the highest rating is 4.7.
+
+THE SMALL-SAMPLE EFFECT (ratings by number of reviews)
+  reviews     places    avg rating   % perfect 5.0   rating std-dev
+  1           1,599     4.14           61.4%          1.32
+  2-4         2,058     4.14           32.4%          0.87
+  5-9         1,074     4.09           10.8%          0.64
+  10-49       1,680     4.06            0.8%          0.36
+  50-199        969     3.99            0.0%          0.24
+  200-999       649     3.98            0.0%          0.19
+  1000+         192     4.08            0.0%          0.20
+
+Spearman correlation rating vs review count: -0.25 (weak NEGATIVE - places with more reviews tend to have LOWER, more realistic ratings; few-review places are inflated by 5.0s).
+
+TRUSTWORTHY SUBSET (rating + 30 or more reviews)
+  2,253 places (20.9% of all places): mean 4.00, median 4.0
+  Of these 0 are a perfect 5.0 and 62 are 4.5+.
+
+ADJUSTED SCORE: bayes = (v*R + 25*4.08) / (v + 25), where v = reviews, R = rating. Pulls low-review ratings toward the global mean
+  so a 5.0 from 1 review no longer beats a 4.6 from 3,000 reviews. See facts/08_top_lists.txt.

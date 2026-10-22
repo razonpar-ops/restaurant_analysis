@@ -1,0 +1,47 @@
+======================================================================
+NAMES & CATEGORY FACTS
+======================================================================
+10,204 distinct names among 10,755 places.
+71% of names contain an obvious food keyword (English or Bengali).
+
+KEYWORD GROUPS (a place can be in more than one)
+  group                     places   share   avg rating (10+ reviews)   median reviews
+  Restaurant                3,762  35.0%        3.97 (n=1738)              13
+  Hotel (local eatery)      2,445  22.7%        3.94 (n=670)              4
+  Cafe / Coffee               715   6.6%        4.07 (n=322)              11
+  Fast food                   466   4.3%        4.06 (n=157)              6
+  Sweets / Bakery             423   3.9%        4.05 (n=122)              5
+  Chinese / Thai              321   3.0%        3.95 (n=197)              26
+  Biryani                     274   2.5%        4.00 (n=73)              4
+  Tea stall                   195   1.8%        4.13 (n=22)              3
+  Kabab / BBQ                 180   1.7%        4.06 (n=105)              24
+  Canteen                      59   0.5%        4.15 (n=12)              3
+
+NAME FAMILIES (possible chains / popular naming)
+  Bismillah                       162 places  avg rating 3.91
+  Bhai Bhai / Vai Vai             118 places  avg rating 3.94
+  Madina                           72 places  avg rating 3.66
+  Kazi Farms Kitchen               29 places  avg rating 4.29
+  Nirob / Niribili                 26 places  avg rating 4.07
+  Haji Biryani                     17 places  avg rating 4.15
+  Star Kebab                        7 places  avg rating 4.08
+  Pizza Hut/Domino's/Pizza Inn      5 places  avg rating 4.32
+  KFC                               4 places  avg rating 4.20
+  Sultan's Dine                     3 places  avg rating 4.25
+
+MOST COMMON EXACT NAMES
+  Bismillah Hotel & Restaurant  x18
+  Bismillah Hotel  x15
+  ভাই ভাই হোটেল  x15
+  Restaurant  x11
+  Bismillah Restaurant  x10
+  বিসমিল্লাহ হোটেল  x10
+  Kazi Farms Kitchen  x7
+  Boishakhi Hotel  x6
+  ভাই ভাই হোটেল এন্ড রেস্টুরেন্ট  x6
+  Bhai Bhai Hotel & Restaurant  x6
+
+LANGUAGE
+  Bengali-script names: 3,480 (32.4%); avg rating 4.10 vs 4.08 for Latin
+  Unrated: 30% (Bengali) vs 20% (Latin); median reviews 3 vs 11
+  In Greater Dhaka: 2% of Bengali-named places vs 16% of Latin-named

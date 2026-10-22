@@ -1,0 +1,13 @@
+======================================================================
+KEY TAKEAWAYS
+======================================================================
+1. The file has 12,703 rows but only 10,755 unique places - 15% of rows were exact duplicates.
+2. 24% of places (2,528) have no rating (stored as 0) and no reviews. Treat 0 as 'missing', never as a score.
+3. Among rated places the average is 4.08; the most common rating is 5.0. Ratings are generous: 65% are 4.0+.
+4. 1,778 places have a perfect 5.0, but 78% of those have only 1-2 reviews. No 5.0 place has more than 20 reviews.
+5. Reviews are extremely concentrated: the top 1% of places hold 36% of all reviews; the median place has just 6.
+6. Only 2,253 places (21%) combine a rating with 30+ reviews - that is the trustworthy core of the dataset.
+7. Affluence (1-4) exists for only 10% of places and only for those with 4+ reviews. Level 2 is 66% of the labelled places.
+8. Greater Dhaka has 12% of places and 51% of all reviews. Outside the big cities many listings are unrated.
+9. About 32% of names are in Bengali script; ~3% look like non-restaurants (stores, shops, etc.).
+10. Recommended handling: dedupe by place_id, treat rating 0 as missing, use an adjusted (Bayesian) rating or a minimum-review filter, and never compare affluence levels without remembering they only cover popular places.

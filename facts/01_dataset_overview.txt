@@ -1,0 +1,20 @@
+======================================================================
+DATASET OVERVIEW
+======================================================================
+File: restaurants.csv
+Raw rows: 12,703      Columns: 8  (place_id, name, latitude, longitude, rating, number_of_reviews, affluence, address)
+Unique places after cleaning: 10,755
+
+COLUMN GUIDE
+ place_id          Google Maps-style unique ID (ChIJ...)
+ name              Business name (Bengali or Latin script, sometimes mixed)
+ latitude/longitude  Coordinates
+ rating            1.0-5.0 star rating; 0 = no rating yet (see data quality)
+ number_of_reviews How many reviews back the rating (blank if none)
+ affluence         Integer 1-4, looks like a price/affluence level (1 = lowest, 4 = highest).
+                   Meaning is inferred - there is no data dictionary.
+ address           Free text; often a Plus Code (e.g. 7XP4+9WW) or road/area name
+
+Geographic span: lat 20.86 to 26.49, lon 88.13 to 92.44
+Places in Bangladesh: 10,692   |  Border places listed with Indian addresses: 63
+Total reviews across all places: 921,186
